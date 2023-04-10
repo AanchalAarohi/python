@@ -1,0 +1,13 @@
+class Animal:
+    def eat(self):
+       print('Animal eating')
+    
+class Dog(Animal):
+    def weep(self):
+       print("dog is weeping")
+    
+d=Dog()
+
+d.weep()
+d.eat()
+
